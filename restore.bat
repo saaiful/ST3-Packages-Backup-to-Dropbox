@@ -1,5 +1,5 @@
 @echo off
-SET var=H:\MYNUL COLLECTION\TEXT\imp\Dropbox\Dropbox\st3
+SET var=%cd%
 RD "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text 3\Installed Packages\" /S /Q
 RD "C:\Users\%USERNAME%\AppData\Roaming\Sublime Text 3\Packages\" /S /Q
 echo ===============================================
